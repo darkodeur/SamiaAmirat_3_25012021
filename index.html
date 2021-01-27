@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/41d90e6780.js" crossorigin="anonymous"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Début header -->
@@ -13,26 +15,45 @@
         </header>
     <!-- fin du header -->
         <section class="localisation">
-            <p><i class="fas fa-map-marker-alt"></i>Paris,Belleville</p>
+            <div class="loc">
+                <span><i class="fas fa-map-marker-alt"></i></span>
+                <p>Paris,Belleville</p>
+            </div>
+            
         </section>
 
         <section class="reservation">
-            <h2>Réservez le menu qui vous convient</h2>
-            <p>Découvrez des restaurants d'excepttion,séléctionnés par nos soins</p>
-            <a href="#" class="btn">Explorez nos restaurants</a>
-        </section>
+            <div class="reservation-bloc">
+                <h2>Réservez le menu qui vous convient</h2>
+                <p>Découvrez des restaurants d'excepttion,séléctionnés par nos soins</p>
+                <a href="#" class="btn">Explorez nos restaurants</a>
+            </div>
+        </section>  
+            
 
         <section class="fonctionnement">
             <h2>Fonctionnement</h2>
-            <i class="fas fa-mobile-alt"></i><a href="#" class="btn">choississez un restaurant</a>
-            <i class="fas fa-list-ul"></i><a href="#" class="btn">choississez un restaurant</a>
-            <i class="fas fa-store"></i><a href="#" class="btn">choississez un restaurant</a>
+            <article class="fonctionnement-bloc">
+                <div class="fonction-bloc">
+                    <div class="number"><span>1</span></div>
+                    <div class="fonction_text"><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</div>
+               </div>
+                <div class="fonction-bloc">
+                    <div class="number"><span>2</span></div>
+                    <div class="fonction_text"><i class="fas fa-list"></i>Composez votre menu</div>
+               </div>
+                <div class="fonction-bloc">
+                    <div class="number"><span>3</span></div>
+                    <div class="fonction_text"><i class="fas fa-store"></i>Dégustez au restaurant</div>
+               </div>
+            </article>
+            
          
         </section>
-       <section class="Restaurants">
+       <!-- <section class="Restaurants">
            <h2>Restaurants</h2>
            <img src="images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="restaurant">
-       </section>
+       </section> -->
 
         <footer>
 
@@ -40,8 +61,5 @@
 
     
     
-    <div class="localisation">
-        
-    </div>
 </body>
 </html>
