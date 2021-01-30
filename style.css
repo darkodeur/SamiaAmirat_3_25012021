@@ -6,104 +6,206 @@
   box-sizing: border-box;
 }
 
-
-
-
 header {
-    width: 100%;
-    height: 60px;
-    margin: auto;
-    padding: 12px 0 12px 0;
+  width: 100%;
+  height: 60px;
+  margin: auto;
+  padding: 12px 0 12px 0;
 }
 header h1 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 header img {
-    width: 150px;
+  width: 150px;
 }
-.localisation {
-    width: 100%;
-    height: 40px;
-    margin: 0 auto;
-    background: #ebebeb;
-}
-.localisation p{
-    text-align: center;
-    display: inline-block;
-}
-.localisation span{
-    position: relative;
-    right: 15px
-}
-.loc{
-    line-height: 40px;
-    text-align: center;
-}
-.reservation {
-   background: whitesmoke;
-   width: 100%;
-   height: 250px;
-}
-.reservation-bloc{
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 50px;
 
+.localisation {
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  background: #eaeaea;
+  width: 100%;
+  height: 50px;
+}
+.localisation p {
+  text-align: center;
+  display: inline-block;
+}
+.localisation span {
+  position: relative;
+  right: 15px;
+}
+
+.loc {
+  line-height: 50px;
+  text-align: center;
+}
+
+.reservation {
+  background: #f6f6f6;
+  width: 100%;
+  height: 280px;
+  text-align: center;
 }
 .reservation .btn {
-    background: linear-gradient(#ef34c0, #9356dc);
-    padding: 15px;
-    border-radius: 30px;
-    color: #ffffff;
-    width: 220px;
-    cursor: pointer;
-    display: inline-block;
-    height: 50px;
-    font-weight: 500;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    box-shadow: 0rem 0.2rem 0.2rem #c2c2c2;
-    text-align: center;
-    margin-top: 25px;
-
+  background: linear-gradient(#FF79DA, #a16be0);
+  padding: 15px;
+  border-radius: 30px;
+  color: #ffff;
+  width: 220px;
+  cursor: pointer;
+  display: inline-block;
+  height: 50px;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  box-shadow: 0rem 0.2rem 0.2rem #c2c2c2;
+  text-align: center;
+  margin-top: 25px;
 }
+
+.reservation-bloc {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.reservation-bloc p {
+  padding-top: 10px;
+}
+
 .fonctionnement {
-    width: 100%;
-    height: 500px;
+  width: 100%;
+  height: 390px;
 }
 .fonctionnement h2 {
-    margin: 30px;
-    
-    
+  margin: 30px;
 }
-.fonction-bloc{
-    width: 70%;
-    height: 50px;
-    border: none;
-    margin: 20px auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 20px;
-    background: whitesmoke;
-    box-shadow: 0rem 0.2rem 0.2rem #dddddd;
-    cursor: pointer;
-
+.fonctionnement .fonction-bloc {
+  width: 90%;
+  height: 75px;
+  border: none;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  background: #f6f6f6;
+  box-shadow: 0rem 0.2rem 0.2rem #dddddd;
+  cursor: pointer;
+  position: relative;
+}
+.fonctionnement .fonction-bloc i {
+  color: #7d7d7dfb;
+  width: 20px;
+  font-size: 1.2rem;
+  margin: 0 25px 0 30px;
 }
 .fonctionnement .number {
-    border-radius: 50px;
-    background: #9356dc;
-    color: #ffffff;
-    font-weight: 300;
-    padding: 3px 7px 2px 7px;
-    
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  background: #9356dc;
+  color: #ffff;
+  font-weight: 300;
+  padding: 3px 7px 2px 7px;
+  position: absolute;
+  left: -10px;
+  font-size: 18px;
 }
-.fonction-bloc i {
-    color: #7d7d7dfd;
-    width: 20px;
-    font-size: 1.2rem;
-    margin: 0 25px 0 30px;
+.fonctionnement .number span {
+  padding-left: 3px;
+}
+.fonctionnement .fonction_text {
+  position: absolute;
+  left: 20px;
+}
+.fonctionnement .fonction_text i {
+  font-size: 20px;
+}
+.fonctionnement .fonction_text span {
+  font-size: 20px;
+}
 
+.restaurant {
+  width: 100%;
+  height: 1460px;
+  background: #f6f6f6;
 }
+.restaurant h2 {
+  padding: 35px 15px 15px 15px;
+  font-weight: 900;
+}
+.restaurant .carte_restaurants {
+  width: 90%;
+  height: 310px;
+  background: #ffff;
+  margin: 20px auto;
+  border-radius: 15px 15px 15px 15px;
+  position: relative;
+}
+.restaurant .photo_restau {
+  width: 100%;
+  height: 200px;
+}
+.restaurant .photo_restau img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.restaurant .photo_restau .new_restau {
+  width: 80px;
+  height: 30px;
+  background: #99e2d0;
+  color: #32b091;
+  border-radius: 3px;
+  position: absolute;
+  right: 12px;
+  top: 13px;
+}
+.restaurant .photo_restau .new_restau p {
+  text-align: center;
+  line-height: 30px;
+}
+.restaurant .info_restau {
+  position: relative;
+}
+.restaurant .info_restau p {
+  position: absolute;
+  left: 15px;
+  bottom: -10px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.restaurant .info_restau .fa-heart {
+  position: absolute;
+  right: 12px;
+  bottom: 4px;
+  font-size: 30px;
+}
+
+footer {
+  background: #363636;
+  width: 100%;
+  height: 250px;
+}
+footer h3 {
+  font-family: "Shrikhand", cursive;
+  font-weight: 400;
+  margin-bottom: 13px;
+  font-size: 25px;
+  color: #ffff;
+  padding: 25px 25px 25px 25px;
+}
+footer a {
+  color: #ffff;
+  line-height: 30px;
+  text-decoration: none;
+  padding: 25px;
+  font-size: 20px;
+}
+footer i {
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
